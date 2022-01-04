@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color{
     color: darkorange;
 }
@@ -35,4 +38,28 @@ h1{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience{
+    width: 40%;
+    margin: 0% 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(75, 75, 80);
+}
+#babyweb-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#fullweb-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(darkorange, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
