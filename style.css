@@ -64,3 +64,15 @@ h2{
 footer p{
     text-align: center;
 }
+
+@media only screen and (max-width:688px) {
+    .flexible-container{
+        flex-direction: column;
+        text-align: center;
+        grid-gap: 50px;
+    }
+    .half-width, .experience{
+        width: 80%;
+    }
+   
+}
